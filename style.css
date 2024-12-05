@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./images/backgroundfoto.jpg");
+    background-repeat: no-repeat;
+    background-position: right top 25px; 
+    background-position: cover;
+    background-color: rgb(192, 218, 215);
+}
+.novbar {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    \
+}
+.novbar-logo {
+    color: darkmagenta;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.novbar-logo:hover {   
+    color: darkcyan;
+    font-size: 33px;
+}
+
+.novbar-menu {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.novbar-menu li {
+margin-left: 50px;
+}
+.novbar-menu a {
+    color: darkmagenta;
+    text-decoration: none;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+.novbar-menu a:hover {
+    color:darkcyan
+}
+  
